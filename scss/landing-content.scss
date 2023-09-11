@@ -1,0 +1,56 @@
+//styling the landing page
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "pf-reminder", sans-serif;
+    font-weight: 400;
+    font-style: medium;
+    color: #171C26;
+    font-size: 35px;
+}
+
+.main-content {
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    background-color:rgba(rgb(227, 140, 64), 0.4);
+}
+
+#candle-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+.content {
+    height: 175px;
+    width: 175px;
+    //background-color: aqua;
+    margin: 50px;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.content img {
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
+}
+
+.content p {
+    margin-top: 10px;
+    font-family: "pf-reminder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #171C26;
+    font-size: 18px;
+}

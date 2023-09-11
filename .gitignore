@@ -1,0 +1,17 @@
+# node modules
+node_modules/
+
+css/styles.css.map
+
+# Logs
+logs
+*.log
+
+# optional cache directory
+.npm
+
+# VSC project folder
+.vscode
+
+# Mac specific files
+.DC_Store

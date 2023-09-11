@@ -1,0 +1,64 @@
+//styles for nav bar
+
+
+.nav-wrapper {
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    //background-color: #E38C40;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 150px;
+    margin-left: 600px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "pf-reminder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 50px;
+    color: #171C26;
+    font-size: 18px;
+}
+
+//logo wrapper
+.logo {
+    width: 125px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+//candle image
+.candle-logo {
+    min-width: 110px;
+    min-height: 110px;
+    background-size: cover;
+    background-image: url('../images/candle-logo.png');
+    margin-left: 5px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: "pf-reminder", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #171C26;
+    font-size: 18px;
+}
+
+.logo-text p {
+    margin-bottom: 5px;
+}
